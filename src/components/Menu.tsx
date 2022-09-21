@@ -1,20 +1,31 @@
+import { GithubLogo } from "phosphor-react";
+
 export function Menu() {
   return (
-    <div className="max-w-[1000px] w-full mx-auto my-8 p-4 gap-4 flex flex-col">
+    <div className="max-w-[1000px] w-full mx-auto my-8 p-4  flex flex-col">
       <h1 className="text-6xl font-semibold">Next themes</h1>
-      <p className="text-2xl">I am Web Developer</p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-        consequuntur neque eligendi, mollitia dolorem maxime nostrum veritatis
-        dolorum repellat, nisi maiores laborum exercitationem quod quo inventore
-        impedit consectetur cum error!
+
+      <p className="text-lg font-semibold mt-4">
+        Veja as vantagens de utilizar o next-themes{" "}
+        <a
+          className="text-blue-400"
+          href="https://github.com/pacocoursey/next-themes"
+        >
+          aqui.
+        </a>
       </p>
-      <button
-        className="bg-purple-500 hover:bg-purple-700 w-max p-2 rounded text-white
-      font-medium transition-colors"
+
+      <p className="text-lg font-semibold my-4">
+        Exemplo de uma aplicação Next.js que utiliza next-themes.
+      </p>
+
+      <a
+        href="https://github.com/izaiasmorais/next-themes"
+        className="bg-purple-500 hover:bg-purple-700 w-max py-2 px-3 rounded text-white
+      font-medium transition-colors flex gap-1 items-center"
       >
-        Hire me
-      </button>
+        <GithubLogo size={25} /> Ver repositório
+      </a>
     </div>
   );
 }
