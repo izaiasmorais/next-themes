@@ -8,7 +8,7 @@ Uma aplicação básica para testar a biblioteca `next-themes`, que serve para i
 
 ### Funcionalidades
 
-- Modo escuro completo persistente.
+- Modo escuro persistente.
 
 ## 🚀 Tecnologias
 
