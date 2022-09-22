@@ -24,7 +24,7 @@ https://user-images.githubusercontent.com/53953937/191783513-94550f28-f959-4356-
 ## 💻 Clonando projeto
 
 ```bash
-$ git clone https://github.com/IzaiasMorais/next-themes.git && cd next-themes
+$ git clone https://github.com/izaiasmorais/next-themes.git && cd next-themes
 ```
 
 ```bash
